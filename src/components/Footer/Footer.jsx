@@ -13,23 +13,24 @@ function Footer() {
           <button
             type="button"
             className="btn btn-primary btn-lg btn-floating mx-2"
-            
+            onClick={() => window.open('https://www.facebook.com/RecuerdosRocio', '_blank')}
           >
             <i className="fab fa-facebook-f" />
           </button>
           <button
             type="button"
             className="btn btn-primary btn-lg btn-floating mx-2"
-            
+            onClick={() => window.open('https://www.instagram.com/recuerdosrocio/', '_blank')}
           >
-            <i className="fab fa-facebook-f" />
+            <i className="fab fa-instagram" />
           </button>
           <button
             type="button"
             className="btn btn-primary btn-lg btn-floating mx-2"
+            onClick={() => window.open('https://wa.me/c/5213331191800', '_blank')}
             
           >
-            <i className="fab fa-facebook-f" />
+            <i className="fab fa-whatsapp" />
           </button>
 
         </div>

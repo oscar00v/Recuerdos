@@ -1,37 +1,39 @@
-footer {
-    background-color: #929fba;
+footer{
+  display: flex;
+
+  background-color: #f8f9fa;
+
+  .Logo{
+    margin-bottom: 1.5rem;
+
+    img{
+      width: 100px;
+      height: auto;
+    }
   }
-  
-  .text-white {
-    color: #fff;
+
+
+ .BotonRedes{
+    background-color: aqua;
+
+    button {
+      margin: 10px;
+      background-color: #453958; // Color del botón
+      color: #fff; // Color del texto/icono
+      border: none;
+      border-radius: 40%; // Hacer que el botón sea redondo
+      width: 50px;
+      height: 50px;
+      font-size: 1.5rem; // Tamaño del icono
+
+      &:hover {
+        background-color: #9d87d2; // Cambia el color al pasar el mouse
+      }
+      i {
+        margin: 0; // Asegura que el icono esté centrado
+      }
+
   }
-  
-  .text-uppercase {
-    text-transform: uppercase;
-  }
-  
-  .font-weight-bold {
-    font-weight: bold;
-  }
-  
-  .btn-floating {
-    border-radius: 50%;
-    display: inline-block;
-    padding: 0.5rem;
-    margin: 0.25rem;
-    text-align: center;
-  }
-  
-  .btn-primary {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  a.text-white:hover {
-    color: #ddd;
-  }
-  
-  .container {
-    margin: 2rem auto;
-  }
+}
+}
   

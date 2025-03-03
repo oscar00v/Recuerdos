@@ -18,16 +18,17 @@ footer{
 
     button {
       margin: 10px;
-      background-color: #453958; // Color del botón
+      background-color: #008CFF; // Color del botón
       color: #fff; // Color del texto/icono
       border: none;
-      border-radius: 40%; // Hacer que el botón sea redondo
+      border-radius: 24px; // Hacer que el botón sea redondo
       width: 50px;
       height: 50px;
       font-size: 1.5rem; // Tamaño del icono
 
       &:hover {
-        background-color: #9d87d2; // Cambia el color al pasar el mouse
+        background-color: #ff7300; // Cambia el color al pasar el mouse
+        // transform: translateY(-5px)
       }
       i {
         margin: 0; // Asegura que el icono esté centrado

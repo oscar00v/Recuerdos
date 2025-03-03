@@ -34,7 +34,7 @@ function Footer() {
           </button>
 
         </div>
-        Footer
+        
       </footer>
     </div>
   )

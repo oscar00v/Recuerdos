@@ -6,6 +6,7 @@ import Home from '../pages/Home'; // Asegúrate de que la ruta sea correcta
 import Login from '../pages/Login'; // Asegúrate de que este componente exista
 import Signup from '../pages/Singup'; // Asegúrate de que este componente exista
 import Artes from '../pages/Artes';
+import ShoppingCart from '../pages/ShoppingCart';
 const RoutesIndex = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const RoutesIndex = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/producto" element={<Productos/>}/>
         <Route path="/artes" element={<Artes/>}/>
+        <Route path="ShoppingCart" element={<ShoppingCart/>} />
       </Routes>
     </>
   );

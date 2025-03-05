@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-rou
 import Banner from './components/Header/Banner';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
+import Navbar2 from './components/Navbar/Navbar2';
 import Home from './pages/Home';
 import Login from './pages/Login'; // Asegúrate de tener un componente Login
 import Signup from './pages/Singup'; // Asegúrate de tener un componente Signup
@@ -12,6 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Banner />
+      <Navbar2 />
       <RoutesIndex />
       <Footer/>
     </BrowserRouter>

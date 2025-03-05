@@ -10,7 +10,7 @@ import ShoppingCart from '../pages/ShoppingCart';
 const RoutesIndex = () => {
   return (
     <>
-      <Navbar />
+      
       <Routes>
         {/* Define tus rutas aquí */}
         <Route path="/" element={<Home />} />
